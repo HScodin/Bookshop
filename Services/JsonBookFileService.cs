@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Bookshop.Services
 {
-    public class JsonBookFile
+    public class JsonBookFileService
     {
-        public JsonBookFile(IWebHostEnvironment webHostEnvironment)
+        public JsonBookFileService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
         }
