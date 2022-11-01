@@ -13,10 +13,10 @@ namespace Bookshop.Modals
         public int book_id{ get; set;}
         
         [JsonPropertyName("name")]
-        public int book_name{ get; set; }
+        public string book_name{ get; set; }
        
         [JsonPropertyName("image")]
-        public int book_image{ get; set; }
+        public string book_image{ get; set; }
 
         public override string ToString()
         {
